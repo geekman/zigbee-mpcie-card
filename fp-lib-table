@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name cc2538-mpcie)(type KiCad)(uri ${KIPRJMOD}/lib/cc2538-mpcie.pretty)(options "")(descr ""))
+)

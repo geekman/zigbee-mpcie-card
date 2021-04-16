@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC2538_SZ12
+D CC2538+CC2592 Zigbee Module
+$ENDCMP
+#
+#End Doc Library

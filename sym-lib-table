@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name cc2538-mpcie)(type Legacy)(uri ${KIPRJMOD}/lib/cc2538-mpcie.lib)(options "")(descr ""))
+)

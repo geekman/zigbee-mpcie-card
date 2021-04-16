@@ -1,0 +1,12 @@
+*.bck
+
+# backup files
+*.kicad_pcb-bak
+*.sch-bak
+
+# cache files
+fp-info-cache
+*-cache.lib
+
+# outputs
+gerbers/
