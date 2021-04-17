@@ -1076,10 +1076,10 @@
       (net 18 /USB_FS_PU))
   )
 
-  (module cc2538-mpcie:mPCIe_Card_Edge (layer F.Cu) (tedit 6018F2A1) (tstamp 6018A786)
+  (module cc2538-mpcie:mPCIe_Card_Edge (layer F.Cu) (tedit 607AB748) (tstamp 6018A786)
     (at 144.5 147.8)
     (path /60174CB6)
-    (attr smd)
+    (attr virtual)
     (fp_text reference J1 (at -12.45 1.8 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.1)))
     )

@@ -1,5 +1,5 @@
-(module mPCIe_Card_Edge (layer F.Cu) (tedit 6018F2A1)
-  (attr smd)
+(module mPCIe_Card_Edge (layer F.Cu) (tedit 607AB748)
+  (attr virtual)
   (fp_text reference REF** (at -12.45 1.8 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
