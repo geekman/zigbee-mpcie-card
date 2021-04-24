@@ -3,13 +3,18 @@
   (general
     (thickness 1.6)
     (drawings 40)
-    (tracks 278)
+    (tracks 286)
     (zones 0)
     (modules 27)
     (nets 25)
   )
 
   (page A4)
+  (title_block
+    (title "CC2538 Zigbee mPCIe")
+    (rev 2021.04)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -1448,6 +1453,14 @@
   (via (at 135.45 137.95) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 132.55 138.95) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (via (at 132.4 144.05) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 132.7 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 138.08 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 143.46 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 148.84 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 154.22 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 159.6 113.3) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 132.7 118.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (via (at 132.4 123.2) (size 0.6) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 149.3 150.4) (end 149.3 148.35) (width 0.2) (layer B.Cu) (net 2) (status 10))
   (segment (start 149.3 148.35) (end 148.8 147.85) (width 0.2) (layer B.Cu) (net 2))
   (segment (start 148.8 147.85) (end 148.8 144.85) (width 0.2) (layer B.Cu) (net 2))
