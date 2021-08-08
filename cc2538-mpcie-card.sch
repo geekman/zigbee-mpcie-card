@@ -490,24 +490,13 @@ Wire Wire Line
 	8700 3300 8650 3300
 Text Label 8650 3300 2    50   ~ 0
 USB-
-$Comp
-L Device:R_Small_US R5
-U 1 1 62604FD4
-P 8650 2000
-F 0 "R5" H 8718 2046 50  0000 L CNN
-F 1 "4K7" H 8718 1955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8650 2000 50  0001 C CNN
-F 3 "~" H 8650 2000 50  0001 C CNN
-	1    8650 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	8650 1900 8650 1700
+	8650 1800 8650 1700
 Connection ~ 8650 1700
 Wire Wire Line
 	8650 1700 9200 1700
 Wire Wire Line
-	8650 2100 8650 2200
+	8650 2000 8650 2200
 Wire Wire Line
 	8650 2200 8700 2200
 $Comp
@@ -910,7 +899,7 @@ L Device:R_Small_US R3
 U 1 1 60848BC5
 P 4000 4900
 F 0 "R3" V 3900 4950 50  0000 C CNN
-F 1 "200R" V 4050 5000 50  0000 C CNN
+F 1 "4K7" V 4050 5000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 4900 50  0001 C CNN
 F 3 "~" H 4000 4900 50  0001 C CNN
 	1    4000 4900
@@ -960,4 +949,25 @@ Text Label 9950 2500 0    50   ~ 0
 CC_TX
 Text Label 9950 2600 0    50   ~ 0
 CC_RX
+$Comp
+L Device:R_Small_US R5
+U 1 1 62604FD4
+P 8650 1900
+F 0 "R5" H 8718 1946 50  0000 L CNN
+F 1 "4K7" H 8718 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8650 1900 50  0001 C CNN
+F 3 "~" H 8650 1900 50  0001 C CNN
+	1    8650 1900
+	1    0    0    -1  
+$EndComp
+Text Notes 6800 1800 0    50   ~ 0
+max 1nF\nany higher would \nprevent s/w reset
+Wire Notes Line
+	7000 2250 7250 2075
+Wire Notes Line
+	7250 2075 7250 1825
+Wire Notes Line style solid
+	7000 2250 7050 2250
+Wire Notes Line style solid
+	7025 2200 7000 2250
 $EndSCHEMATC
