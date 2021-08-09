@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "CC2538 Zigbee mPCIe"
 Date ""
-Rev ""
+Rev "2021.08"
 Comp ""
 Comment1 ""
 Comment2 ""
