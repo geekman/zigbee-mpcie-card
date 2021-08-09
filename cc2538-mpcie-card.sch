@@ -970,4 +970,6 @@ Wire Notes Line style solid
 	7000 2250 7050 2250
 Wire Notes Line style solid
 	7025 2200 7000 2250
+Text Notes 2050 4150 1    87   ~ 17
+mPCIe Card Edge
 $EndSCHEMATC
